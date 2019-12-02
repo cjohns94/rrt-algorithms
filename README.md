@@ -1,3 +1,10 @@
+#Personal Notes
+-pip install rtree didn't work for me, but sudo apt install python3-rtree did.
+
+	This is the error message that came with pip install:
+	Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-541ysx/rtree/
+-the pip install commands for dependencies all need to be pip3. (this still didnt work for rtree), but it did for the others. 
+
 # rrt
 Collection of rrt-based algorithms that scale to n-dimensions
 - rrt
